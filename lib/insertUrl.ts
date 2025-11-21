@@ -10,7 +10,7 @@ export default async function insertUrl(entry: LinkProps): Promise<string> {
     if (!url || !alias) {
         return "Both the URL and alias are required.";
     } else if (
-        url.startsWith("https://cs391-url-shortener.vercel.app") ||
+        url.startsWith("https://mp5-lnih.vercel.app/") ||
         url.startsWith("http://localhost:3000")
     ) {
         return "Invalid URL: you cannot shorten this site itself.";
