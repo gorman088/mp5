@@ -45,7 +45,7 @@ export default function HomeContent() {
 
     useEffect(() => {
         if (typeof window !== "undefined") {
-            setBaseUrl(window.location.origin);
+            setBaseUrl("https://mp5-lnih.vercel.app/");
         }
     }, []);
 
